@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container{
+  display: grid
+}
+
+#Positive{ 
+  margin-left:1%;
+  padding-left:2%;
+  padding-right: 2%;
+  border: 15px solid green;
+  border-width: 2px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 43%;
+}
+
+#Offer{
+  border: 5px solid green;
+  margin-top: 2%
+}
+
+#Interview{
+  border: 5px solid blue;
+  margin-top: 2%;
+}
+
+#Assessment{
+  border: 5px solid black;
+  margin-top: 2%;
+}
+
+#Received{
+  border: 5px solid red;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#Rejected{
+  border: 15px solid green;
+  border-width: 2px;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  width: 43%;
+  padding-left: 2%;
+  padding-right:2%;
+  margin-right: 1%;
+}
+
+#Rej{
+  border: 5px solid red;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#item{
+  padding-left:2%;
+  padding-bottom:5%;
+  padding-right:2%;
+}
+
+.modal-content {
+  text-align: left;
+  padding: 5%;
+}
+
+#l {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid black; width: 100%;
+  text-align: left;
+  max-height: 100%;
+}
+
